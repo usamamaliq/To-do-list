@@ -1,87 +1,83 @@
 body {
- display: flex;
- flex-direction: column;
- align-items: center;
- align-content: center;
- margin-top: 10vh;
- padding: 20vw;
- padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin-top: 10vh;
+  padding: 20vw;
+  padding-top: 0;
 }
 
 .box {
-    box-shadow: 2px 2px gainsboro;
+  box-shadow: 2px 2px gainsboro;
 }
 
 .title-cont {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    
-    border: 1px solid gainsboro;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  border: 1px solid gainsboro;
 }
 
 .title {
-    width: 40vw;
-    font-size: 2vw;
-    text-align: left;
-    color: rgb(82, 80, 80);
+  width: 40vw;
+  font-size: 2vw;
+  text-align: left;
+  color: rgb(82, 80, 80);
 }
 
 #refresh-btn {
-    background-color: white;
-    border: 0;
-    color: rgb(82, 80, 80);
-    
+  background-color: white;
+  border: 0;
+  color: rgb(82, 80, 80);
 }
 
 .add-task {
-    width: 41.7vw;
-    border: 1px solid gainsboro;
-    display: flex;
+  width: 41.7vw;
+  border: 1px solid gainsboro;
+  display: flex;
 }
 
 #task {
-    width: 40vw;
-    height: 5vh;
-    border: 0;
-    margin: 0;
-    text-align: left;
+  width: 40vw;
+  height: 5vh;
+  border: 0;
+  margin: 0;
+  text-align: left;
 }
 
 .task-list {
-    width: 41.7vw;
-    border: 1px solid gainsboro;
+  width: 41.7vw;
+  border: 1px solid gainsboro;
 }
 
 .add-btn {
-    background-color: white;
-    border: 0;
-    color: rgb(82, 80, 80);
+  background-color: white;
+  border: 0;
+  color: rgb(82, 80, 80);
 }
 
 .clear-btn {
-    border: 0;
-    font-size: 1.5vw;
-    text-align: center;
-    width: 41.9vw;
-    height: 5.5vh;
-    margin-left: 0;
-    padding: 0;
-    color: rgb(92, 89, 89);
+  border: 0;
+  font-size: 1.5vw;
+  text-align: center;
+  width: 41.9vw;
+  height: 5.5vh;
+  margin-left: 0;
+  padding: 0;
+  color: rgb(92, 89, 89);
 }
 
 hr {
-    background-color: gainsboro;
-    margin: 0;
-    height: 2px;
-    
+  background-color: gainsboro;
+  margin: 0;
+  height: 2px;
 }
 
 .list-cont {
-    height: 2vw;
+  height: 2vw;
 }
 
 .label-cont {
-    color: rgb(82, 80, 80);
-    
+  color: rgb(82, 80, 80);
 }
